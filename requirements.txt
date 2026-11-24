@@ -1,0 +1,2 @@
+# Runtime dependency: sends HTTP requests from Python to the local Ollama server.
+requests>=2.31

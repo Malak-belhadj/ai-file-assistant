@@ -1,0 +1,5 @@
+# Everything needed to run the application, the tests AND the charts.
+-r requirements.txt
+pytest>=8.0
+# Draws the database queries as charts (scripts/draw_charts.py, 'charts' command)
+matplotlib>=3.8

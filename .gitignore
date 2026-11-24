@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+# Virtual environment (each member creates their own)
+.venv/
+venv/
+# The assistant's sandbox folder (created at runtime)
+workspace/
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+# Local SQLite history (each member has their own)
+assistant.db
+# Generated chart images
+charts/
+# Secrets (Telegram bot token)
+.env
